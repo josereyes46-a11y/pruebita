@@ -7,3 +7,7 @@ def test_add():
 def test_quit():
         calc = Calculadora() 
         assert calc.quit(10, 7) == 3
+
+def test_times():
+        calc = Calculadora() 
+        assert calc.times(5, 5) == 25       

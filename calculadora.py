@@ -5,3 +5,6 @@ class Calculadora:
 
     def quit(self, c, d):
         return c - d
+
+    def times(self, e, f):
+        return e * f
